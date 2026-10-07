@@ -1,5 +1,15 @@
 # Bank Management System - Python Project
 # Created by: Kashish
+# --- Secure PIN Added by Kashish ---
+print("Welcome to Kashish's Secure Bank!")
+CORRECT_PIN = "1234"
+user_pin = input("Enter PIN: ")
+if user_pin != CORRECT_PIN:
+    print("Wrong PIN!")
+    exit()
+else:
+    print("PIN OK! Welcome!")
+print("-----------------------------")ha,k
 
 class BankAccount:
     def _init_(self, acc_no, name, balance=0):
