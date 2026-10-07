@@ -9,7 +9,7 @@ if user_pin != CORRECT_PIN:
     exit()
 else:
     print("PIN OK! Welcome!")
-print("-----------------------------")ha,k
+print("-----------------------------")
 
 class BankAccount:
     def _init_(self, acc_no, name, balance=0):
